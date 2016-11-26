@@ -1,8 +1,21 @@
+body{
+    margin: 0;
+    font-family: Helvetica;
+}
+
+#logo{
+    height: 80px;
+    width: 80px;
+}
+
 #container{
+    /*First 4 lines will help center and make it responsive*/
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    flex-direction: column;
+
+    /*Helps put text underneath image i.e. row by row*/
+    flex-direction: column; 
 
 }
